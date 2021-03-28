@@ -1,0 +1,77 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* .background {
+  background: linear-gradient(-45deg, #020B26, #061940, #173673, #284f9e);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+} */
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  z-index: 4;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+  color: white;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="username"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.success {
+	border-color: #65c914;
+  border-width: 2px;
+}
+
+.error {
+	border-color: #e73c3c;
+  border-width: 2px;
+}
+
+h1 {
+  color: white;
+}
+
+i {
+  font-size: 3rem;
+  color: white;
+}
