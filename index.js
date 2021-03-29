@@ -16,14 +16,14 @@ function checkInputs() {
         setErrorFor(username);
         setErrorFor(password);
         alert("Fields cannot be blank")
-    } else if (usernameValue === "MajorTom" && passwordValue === "SpaceOddity") {
+    } else if (usernameValue === "Starman" && passwordValue === "Bowie") {
         setSuccessFor(username);
         setSuccessFor(password);
         var playTheMusic = true;           
     } else {
         setErrorFor(username);
         setErrorFor(password);
-        alert("Username is MajorTom \nPassword is SpaceOddity");
+        alert("Username is Starman \nPassword is Bowie");
     }
     
     if(playTheMusic){
@@ -41,7 +41,7 @@ function setSuccessFor(input) {
 }
 
 function playMusic() {
-    var audio = new Audio("images/David-Bowie-Space-Oddity.mp3");
+    var audio = new Audio("sounds/04Starman.mp3");
     audio.play();
     var submitButton = document.querySelector("button");
     submitButton.setAttribute("type", "button");
